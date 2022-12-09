@@ -15,7 +15,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: poyadav3/argocd-demo:sha-de5f11c
+        image: shivaraj123/argocd-demo:sha-de5f11c
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
