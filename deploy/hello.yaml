@@ -14,7 +14,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: shivaraj123/argocd-demo:sha-0fbd9fc
+        image: shivaraj123/argocd-demo:sha-bcb9fec
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -34,5 +34,5 @@ spec:
     port: 80
     protocol: TCP
     targetPort: 8080
-  type: LoadBalancer
+  type: NodePort
 
